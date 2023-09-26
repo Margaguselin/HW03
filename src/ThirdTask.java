@@ -8,7 +8,7 @@ public class ThirdTask {
 public static char getLastChar(String str) {
     return str.charAt(str.length() - 1);
 
-    public static char
+
 
 
 
@@ -29,8 +29,12 @@ public static char getLastChar(String str) {
         System.out.println("result = " + firstChar );
 
 
+
 char lastChar = getLastChar(inputString);
 System.out.println("result = " + lastChar);
+
+String substring = inputString.substring(2 ,6);
+System.out.println(lastChar + substring + firstChar);
     }
 }
 
